@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import CommentSection from "@/components/comment";
+import Footer from "@/components/footer";
 
 
 
@@ -39,6 +40,7 @@ export default function RootLayout({
     
         {children}
         <CommentSection/>
+        <Footer />
     
       </body>
     </html>

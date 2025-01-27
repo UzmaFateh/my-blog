@@ -39,29 +39,14 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex md:items-center space-x-6">
           <a
-            href="#section1"
+            href="/"
             className="text-gray-700 hover:text-gray-900 font-medium"
           >
-            Motivational
+            Blogs
           </a>
-          <a
-            href="#section1"
-            className="text-gray-700 hover:text-gray-900 font-medium"
-          >
-            Lifestyle
-          </a>
-          <a
-            href="#section1"
-            className="text-gray-700 hover:text-gray-900 font-medium"
-          >
-            Travelling
-          </a>
-          <a
-            href="#section1"
-            className="text-gray-700 hover:text-gray-900 font-medium"
-          >
-            Beauty
-          </a>
+        
+         
+        
           <a
             href="#comment1"
             className="inline-block bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700"
@@ -79,40 +64,15 @@ const Navbar = () => {
           <ul className="flex flex-col items-center space-y-2 p-4 mx-auto">
             <li>
               <a
-                href="#section1"
+                href="/"
                 className="block w-full text-gray-700 hover:text-gray-900 font-medium"
                 onClick={() => setIsOpen(false)} // Close menu on link click
               >
-                Motivational
+                Blogs
               </a>
             </li>
-            <li>
-              <a
-                href="#section1"
-                className="block w-full text-gray-700 hover:text-gray-900 font-medium"
-                onClick={() => setIsOpen(false)} // Close menu on link click
-              >
-                Lifestyle
-              </a>
-            </li>
-            <li>
-              <a
-                href="#section1"
-                className="block w-full text-gray-700 hover:text-gray-900 font-medium"
-                onClick={() => setIsOpen(false)} // Close menu on link click
-              >
-                Travelling
-              </a>
-            </li>
-            <li>
-              <a
-                href="#section1"
-                className="block w-full text-gray-700 hover:text-gray-900 font-medium"
-                onClick={() => setIsOpen(false)} // Close menu on link click
-              >
-                Beauty
-              </a>
-            </li>
+          
+           
             <li>
               <a
                 href="#comment1"
